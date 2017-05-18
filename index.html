@@ -12,14 +12,16 @@
 </head>
 <body>
 	<!-- intro-->
-	<div id="borra">
+	<div id="contenedor">
     	<input type="text" placeholder="Añadir una lista..." id="holder">
-    	<button id="boton">Guardar</button>
+    	<div id="oculto" style="display:none;">
+    		<button id="boton">Guardar</button>
+    	</div>
 	</div>
-	<!-- textarea__ lo que se escribe -->
-	<div id="box1" class="display"></div>
-	<!-- lista de tareas__donde imprime textarea  -->
-	<div id= "contenedor"></div>
+	
+	<div id="listaTareas" class="cajaLista"></div>
+
+
 	<script type='text/javascript' src='js/main.js'></script>
 </body>
 </html>
